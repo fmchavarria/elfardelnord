@@ -145,3 +145,20 @@ section{scroll-margin-top:105px}
  .floating-book{width:auto;max-width:calc(100vw - 36px);right:18px;bottom:18px}
  .privacy-banner{bottom:8px}
 }
+
+
+/* Ajustes móvil + Open Graph prep */
+.mobile-toggle{-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:transparent;color:var(--green);display:none;align-items:center;justify-content:center;gap:4px;flex-direction:column;border:1px solid rgba(48,62,52,.16);border-radius:999px;background:rgba(255,255,255,.62);padding:0 11px;box-shadow:0 8px 20px rgba(48,62,52,.08)}
+.mobile-toggle span{display:block;width:18px;height:2px;border-radius:999px;background:currentColor;transition:transform .24s ease,opacity .18s ease}
+.mobile-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.mobile-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.mobile-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mobile-nav{border-top:1px solid rgba(48,62,52,.08)}
+.mobile-nav a{font-size:17px;color:var(--ink)}
+.review-mark{color:var(--green);background:#fff;border:1px solid var(--line);width:40px;height:40px;border-radius:999px;display:grid;place-items:center;font-size:18px;line-height:1}
+.fork-mark{font-size:17px;color:var(--green)}
+@media(max-width:950px){.mobile-toggle{display:inline-flex}}
+@media(max-width:530px){.mobile-toggle{min-width:46px;min-height:46px;padding:0 12px;background:#f8f4ec}.header{padding:0 4.5%}}
+
+/* Sin iconografía decorativa: no se generan flechas ni estrellas por CSS. */
+.mark,.ornament,.award-icon,.review-stars{display:none!important}
