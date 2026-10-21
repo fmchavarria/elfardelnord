@@ -7,3 +7,6 @@ Implementación de preferencias para catalán, español e inglés; predeterminad
 Verificar con Google Tag Assistant, navegador limpio y panel de red: ningún tracker opcional antes de aceptar, funcionamiento de rechazo, aceptaciones parciales, cambio posterior y traducciones. Las preferencias actuales se guardan localmente por navegador, no se comparten entre dominios.
 
 El texto es informativo provisional: antes de publicar hace falta redactar política de privacidad/cookies completa, responsable, finalidades, proveedores, caducidades y mecanismo de retirada, y revisar adecuación RGPD/LSSI. Consent Mode no sustituye una plataforma de gestión de consentimiento cuando esta sea exigible.
+
+
+Actualización: corregidos iconos y botón hamburguesa en móvil; añadida imagen Open Graph local open-graph-el-far-del-nord.jpg.

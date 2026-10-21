@@ -14,8 +14,34 @@ Extrae **todo el ZIP**. Abre `index.html` (catalán) o `es/index.html` (español
 
 ## Pendiente de publicación
 
-Verificar los horarios, precios, reseñas y URL definitiva de TheFork; incorporar datos reales de Carles y Ramón, el widget oficial, insignia y redes; confirmar el dominio usado en las etiquetas SEO. La compresión Gzip/Brotli se configura en el servidor.
+Verificar los horarios, precios y puntuaciones publicadas; completar la historia de Carles y Ramón y los textos legales; confirmar el dominio usado en las etiquetas SEO. Las reservas se realizan únicamente mediante el enlace de Google facilitado por el restaurante. La compresión Gzip/Brotli se configura en el servidor.
 
 
 ## Mejoras de accesibilidad
 Cabecera sticky en escritorio con botón de reservas siempre visible; tamaños de texto y controles ampliados, estados de foco y mejor legibilidad de preferencias de cookies. En móvil se conserva el botón flotante de reservas.
+
+
+Actualización: corregidos iconos y botón hamburguesa en móvil; añadida imagen Open Graph local open-graph-el-far-del-nord.jpg.
+
+
+Actualización: eliminadas flechas, estrellas y glifos decorativos en los tres idiomas. Se conserva el botón de menú móvil dibujado con CSS.
+
+
+## Correcciones de navegación y contenido (mobile refinado)
+- Menú móvil con 3 líneas dibujadas en CSS, accesible, con nombre y estado expandido por idioma.
+- Se cierra al seleccionar enlace, tocar fuera o pulsar Escape.
+- Portada móvil de altura flexible; texto, reserva y enlace a cocina no se cortan.
+- Botón de reserva flotante en móvil **solo** tras abandonar la portada; no tapa los CTAs iniciales.
+- Simplificación editorial: se ha retirado la frase decorativa a página completa y la insignia de Restaurant Guru **provisional** (se repondrá cuando exista su original).
+- Se han reducido las transiciones y eliminado el zoom de las fotos en hover.
+- Conservados fotografías originales, reserva Google, redes, consentimiento y Open Graph.
+
+Para publicar: revisar puntuaciones/horarios vigentes, la historia de Carles y Ramón y los textos legales definitivos.
+
+
+## Ajustes de idiomas y reservas (nueva versión)
+- Eliminado el enlace a la carta de TheFork, así como los enlaces externos a TheFork desde reseñas y pie de página. El dato de valoración de TheFork se conserva solo como referencia informativa, sin enlace a reservas.
+- Eliminada la propiedad `hasMenu` que dirigía a TheFork del JSON-LD de Restaurant.
+- Menú del mediodía remaquetado con tres bloques: nombre, días y precio, con disposición vertical en móvil y espacio entre los campos en desktop.
+- Selector del pie de página con tres opciones independientes (`CA`, `ES`, `EN`), separadas y con área táctil de 45 × 45 px; texto de accesibilidad localizado.
+- Reservas: solo Google, https://www.google.com/maps/reserve/v/dine/c/W364VXyCyhQ.
